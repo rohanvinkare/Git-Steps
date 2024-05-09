@@ -125,3 +125,38 @@ git branch branch-name
 ```
 git checkout branch-name
 ```
+
+# <B style="color:yellow">Merging Stuff</B>
+
+### Switch to a branch where you want top merge
+
+```
+git checkout branch-name
+
+(branch-name -> Branch in which you  want to merge (main))
+```
+
+### Get Changes if Anyone Made Change before in this branch
+
+```
+git pull origin branch-name
+
+(branch-name -> Branch in which you  want to merge (main))
+```
+
+### Merge The Branch Into
+
+```
+git branch --merged
+git merge branch-name
+
+(branch-name -> Branch you want to merge (first-branch))
+```
+
+### Final Step Pushing Into Branch
+
+```
+git push -u origin branch-name
+
+(branch-name -> Branch in which you  want to merge (main))
+```
