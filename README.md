@@ -103,3 +103,25 @@ git remote add origin https://github.com/rohanvinkare/your-repo-name.git
 ```
 git clone https://github.com/rohanvinkare/your-repo-name.git
 ```
+
+# <B style="color:yellow">Branching Stuff</B>
+
+#### First create a new repoYou have to crete the branch on Git hub website
+
+### To show all Branches In Current Repo Of Git / Github
+
+```
+git branch -a
+```
+
+### To create a new Branch
+
+```
+git branch branch-name
+```
+
+### To switch to a branch
+
+```
+git checkout branch-name
+```

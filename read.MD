@@ -106,6 +106,8 @@ git clone https://github.com/rohanvinkare/your-repo-name.git
 
 # <B style="color:yellow">Branching Stuff</B>
 
+#### First create a new repoYou have to crete the branch on Git hub website
+
 ### To show all Branches In Current Repo Of Git / Github
 
 ```
@@ -123,4 +125,3 @@ git branch branch-name
 ```
 git checkout branch-name
 ```
-===
