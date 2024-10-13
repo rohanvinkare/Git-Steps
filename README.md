@@ -120,6 +120,12 @@ git branch -a
 git branch branch-name
 ```
 
+### To delete a new Branch
+
+```
+git branch -d branch-name
+```
+
 ### To switch to a branch
 
 ```
