@@ -163,6 +163,42 @@ git merge branch-name
 
 ```
 git push -u origin branch-name
-
 (branch-name -> Branch in which you  want to merge (main))
 ```
+
+# For going to last commite / change 
+
+## 1. Create and Switch to New Branch
+```
+git checkout -b new-branch
+```
+- Creates and switches to a new branch called `new-branch`.
+
+## 2. Push the New Branch
+```
+git push --set-upstream origin new-branch
+```
+- Pushes `new-branch` to the remote repository and sets it as the upstream branch for future pushes.
+
+## 3. Switch Back to Main Branch
+```
+git checkout main
+```
+- Switches back to the `main` branch.
+
+## 4. Undo Last Commit (Soft Reset)
+```
+git reset --soft HEAD~1
+```
+- Removes the last commit but keeps the changes staged, allowing you to make further changes before committing again.
+
+## 5. Force Push to Remote Main Branch
+```
+git push -f
+```
+- Force pushes changes to the remote `main` branch, overwriting the previous commit.
+
+
+
+
+
